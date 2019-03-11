@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -12,10 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Sine Wave" Type="Folder">
-			<Item Name="Generate Signal.vi" Type="VI" URL="../Working Directory/Sine Wave/Generate Signal.vi"/>
+			<Item Name="Sine Wave - Generate Signal.vi" Type="VI" URL="../Working Directory/Sine Wave/Sine Wave - Generate Signal.vi"/>
 		</Item>
 		<Item Name="Square Wave" Type="Folder">
-			<Item Name="Generate Signal.vi" Type="VI" URL="../Working Directory/Square Wave/Generate Signal.vi"/>
+			<Item Name="Square Wave - Generate Signal.vi" Type="VI" URL="../Working Directory/Square Wave/Square Wave - Generate Signal.vi"/>
 		</Item>
 		<Item Name="File IO" Type="Folder">
 			<Item Name="Log to File.vi" Type="VI" URL="../Working Directory/File IO/Log to File.vi"/>
@@ -26,7 +26,6 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
-			<Item Name="Log to File.vi" Type="VI" URL="../Backup Directory/File IO/Log to File.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
